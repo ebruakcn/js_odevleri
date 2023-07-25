@@ -1,4 +1,14 @@
 # js_odevleri
+<body>
+    <div align="center"><p>
+    <div id="alert"></div>
+
+    <h1 id="greeting"></h1>
+
+    <h3 id="day"><h3 id="zaman"></h3></h3> 
+    
+    </p> </div>
+-----------------------------------------------------
 document.body.style.backgroundColor = "grey";
 
 var isim = prompt("Adınız nedir?");
