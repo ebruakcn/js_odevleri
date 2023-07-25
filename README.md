@@ -1,4 +1,6 @@
 # js_odevleri
+document.body.style.backgroundColor = "grey";
+
 var isim = prompt("Adınız nedir?");
 function printHello(){
     document.getElementById("greeting").innerHTML =("Merhaba, " + isim+ "! Hoşgeldin!");  	
@@ -12,4 +14,4 @@ function tarihSaat() {
     var date = new Date().toLocaleString('tr-TR');
     document.getElementById("zaman").innerHTML = date;
 }
-setInterval(tarihSaat, 1000);
+setInterval(tarihSaat, 1000); 
